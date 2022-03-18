@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Meu Programa</title>
+    <style>
+        body {
+            background-color: brown;
+            color:white;
+            font: normal 25pt  arial ;
+            /* Comentario CSS   */
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+
+    Deu Certo.
+
+
+    <!-- Comentarios no HTML-->
+
+    <script>
+        //window.alert ("Minha Primeira Mensagem") 
+        //window.confirm("Gostando de JS? ") // janelas c/ botao ok e cancelar
+        //var nome = window.prompt("Qual o Seu Nome? ") 
+        //window.alert('E um Prazer te conhecer ' + nome )
+        
+        //var n1 = window.prompt("Digite um numero: ")
+        //var n2 = window.prompt("Digite outro numero: ")
+        //var s = n1 + n2
+        //window.alert('A soma dos valores é ' + s) 
+        
+        // nessa hora o prompt reconhece como uma string
+        // para que trate como numer para salvar e nao concatenar isso é uma caracteristicado prompt
+        // temos que transformar 
+
+        var n1 = Number.parseInt(window.prompt('Digite um numero: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s) 
+
+        // na versao mais recente nao precisa usar o parseInt
+        // pra concatenar na versao nova usa a crase 
+        // ex. ` aluno $(variavel) com $(variavel) tirou nota @()
+
+
+            
+        
+
+    </script>
+</body>
+</html>
