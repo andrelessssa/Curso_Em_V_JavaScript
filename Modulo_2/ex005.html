@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Meu Programa</title>
+ 
+    <style> /* CONTEÚDO CSS   */
+        body {
+            background-color: brown;
+            color:white;
+            font: normal 25pt  arial ;   
+        }
+      /* Comentario CSS   */
+    </style>
+
+
+</head>
+<body>
+    <h1>Deu Certo</h1>
+
+
+   
+    <script> // CONTEÚDO JS
+      var nome = window.prompt('Qual é o seu nome: ')
+      document.write(`Seu nome tem ${nome.length} letras. <br>`)
+      document.write(`Olá, <strong>  ${nome} ! Seu nome tem ${nome.length} letras. <br> `)
+      document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}. <br>`)  
+      document.write(`Seu nome em minúsculo é ${nome.toLowerCase() }. <br>`)
+     
+      var n1 = 1545.50
+      document.write(`Testando a Formatação do Número ${n1.toFixed(2)} Com duas casas decimais.<br>`)
+      document.write(`Testando a Formatação do Número ${n1.toFixed(2).replace('.',',')} Trocando pondo por Vírgula. <br>`)
+      document.write(`Se for Um Salário ${n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})} em REAL <br>`)
+      document.write(`Se for Um Salário ${n1.toLocaleString('pt-BR', {style:'currency', currency: 'USD'})} em DÓLAR`)
+
+    //s.lenght  - quantos caratceres a string tem 
+    //s.toUpperCase() - tudo maiusculo
+    //s.toLowerCase() - tudo menusculo 
+          
+
+    </script>
+     <!-- Comentarios no HTML-->
+</body>
+</html>
